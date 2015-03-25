@@ -2,3 +2,13 @@
     width:100%;
     height:80px;
 }
+.navBar ul{
+    list-style: none;   
+}
+.navBar ul li{
+    position:relative;
+    float:left;
+}
+.services-button{
+    width: 100px;   
+}
