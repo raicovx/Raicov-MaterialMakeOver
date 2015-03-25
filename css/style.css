@@ -9,6 +9,11 @@
     position:relative;
     float:left;
 }
-.services-button{
-    width: 100px;   
+#services.dropdown-content{ /* Materialize Default Override */
+    width: 300px!important;
+    left: 80%!important;
+    
 }
+#services.dropdown-content li a{ /* Materialize Default Override */
+    color:#c21017!important;
+}   
