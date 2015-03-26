@@ -1,4 +1,5 @@
 $(document).ready(function(){
-   $(".services-button").dropdown(); 
+   $(".services-button").dropdown();
+    $(".button-collapse").sideNav();
     
 });

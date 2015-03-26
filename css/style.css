@@ -1,6 +1,8 @@
-.navBar{
+
+/* Nav Bar */
+.navBar, nav{
     width:100%;
-    height:80px;
+    height:80px!important;
 }
 .navBar ul{
     list-style: none;   
@@ -16,4 +18,13 @@
 }
 #services.dropdown-content li a{ /* Materialize Default Override */
     color:#c21017!important;
-}   
+} 
+.brand-logo img{
+    width:70px;
+    height:auto;
+}
+
+.indentedLI{
+ padding-left: 40px!important;
+ color: #c21017!important;
+} 
