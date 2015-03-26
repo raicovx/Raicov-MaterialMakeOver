@@ -24,7 +24,6 @@
     height:auto;
 }
 
-.indentedLI{
- padding-left: 40px!important;
- color: #c21017!important;
-} 
+ul.side-nav li a.indentedLI {
+  color: #c21017!important;
+}
