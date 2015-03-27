@@ -5,14 +5,17 @@ body{
 .navBar, nav{
     width:100%;
     height:80px!important;
-    background: #d90009;
+    background: #404040;
 }
-.navBar ul{
-    list-style: none;   
-}
-.navBar ul li{
+.navBar ul li{ /* Materialize Default Override */
     position:relative;
     float:left;
+    height:80px!important;
+    line-height:80px!important;
+}
+.navBar ul li a i{ /* Materialize Default Override */
+    height:80px!important;
+    line-height:80px!important;
 }
 #services.dropdown-content{ /* Materialize Default Override */
     width: 300px!important;
