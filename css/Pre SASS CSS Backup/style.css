@@ -42,17 +42,12 @@ ul.side-nav li a.indentedLI {
     }
 
 /* Content styles */
-.bodyContainer{
-    width:75%;
-    height: auto;
-    margin: 15px auto;
-}
 
 /* Business Card */
 .businessCard{
-    height:200px;
-    background: #282828;
-    transition: box-shadow 2s;
+    height:225px;
+    background: #bfbfbf!important;
+    transition: box-shadow 1s;
 }  
 .businessCard img{
     position:relative;
@@ -60,19 +55,50 @@ ul.side-nav li a.indentedLI {
     
 }
 .bcRightHandText{
-    width: 60%; 
-    height: 110px;
-    position:relative;
-    float:left;
-    margin:20px 0 0 25px;
-    padding: 0 15px;
-    background: #1d1d1d;
-    border-radius:5px; 
-    box-shadow: inset 2px 2px 15px #030303;
+   width: 70%;
+  height: 145px;
+  position: ABSOLUTE;
+  float: left;
+  margin: 0;
+  padding: 0 15px;
+  background: #404040;
+  box-shadow: inset 4px 0px 10px #242424, inset 0px 0px 10px #242424;
+  right: 0;
+  top: 0;
 }
 .contInfo{
     text-align: right;
-    color:#9d9c9c;   
+    color:#bfbfbf;  
+    position:absolute;
+    bottom: 0;
+    right: 15;
+}
+.contInfo li{
+    font: 18px 'Roboto', sans-serif;
+    font-weight:300;
+}
+.personPhoto{
+    width:75px;
+    height: 75px;
+    border-radius: 50px;  
+    position:absolute;
+    left:20px;
+    top: 15px;
+    background: #DADADA;
+    box-shadow: 2px 2px 15px #303030;
+}
+.contInfo li i.small{
+    margin: 3px 3px 0 0; 
+    font-size: 17px;
+    color: FFF;
+}
+.contInfo li i#person {
+    margin: 0 10px 0 0!important;  
+    color: FFF;
+}
+.contInfo li i#phone {
+    margin: 0 30px 0 0!important;   
+    color: #FFF;
 }
 .topRow{
     width:100%;
@@ -83,7 +109,8 @@ ul.side-nav li a.indentedLI {
     height: 55px;
     border-top: 1px solid rgba(238, 238, 238, 0.44);
 }
-.smallerTx{
-    font-size: 0.65em;
-    
+
+/* welcome Content */
+.welcomeContent{
+    height: 225px;
 }

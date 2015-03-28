@@ -1,0 +1,33 @@
+@import 'variables';
+body{
+ background:#dadada;   
+}
+/* Nav Bar */
+@import 'navBar';
+#services.dropdown-content{ /* Materialize Default Override */
+    width: 300px!important;
+    left: 80%!important;
+    
+}
+#services.dropdown-content li a{ /* Materialize Default Override */
+    color:#c21017!important;
+} 
+
+
+ul.side-nav li a.indentedLI {
+  color: #c21017!important;
+}
+.waves-effect.waves-custRed .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: #c21017;
+}
+
+/* Content styles */
+
+/* Business Card */
+@import 'businessCard'; 
+/* welcome Content */
+.welcomeContent{
+    height: $top-row-card-height;
+}
