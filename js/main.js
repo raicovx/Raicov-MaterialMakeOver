@@ -5,5 +5,6 @@ $(document).ready(function(){
            $('.businessCard').removeClass('z-depth-2').addClass('z-depth-4');}, function(){
                 $('.businessCard').removeClass('z-depth-4').addClass('z-depth-2');
             });
-    
+      $('.slider').slider({height:500,indicators:true});
+    $('.modal-trigger').leanModal();
 });

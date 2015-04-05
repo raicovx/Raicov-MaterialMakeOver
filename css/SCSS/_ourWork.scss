@@ -1,0 +1,22 @@
+@import 'variables';
+
+    .row#two .ourWork{
+    height:$ourWork-CardHeight;  
+    margin:0!important;
+        padding:0;
+        /*slider fix indicators*/
+        .slider ul.indicators{
+            z-index:99;
+            bottom: 55px;
+        }/*<<<<<<>>>>>>>>>>>>>>>>>>>>>*/
+        .slider ul.indicators li.indicator-item.active{
+            background-color: #c21017;   
+        }
+        /*<<<<<<>>>>>>>>>>>>>>>>>>>>>*/
+        
+        .caption img{
+           width: 80px;
+            height:auto;
+        }   
+}
+    
