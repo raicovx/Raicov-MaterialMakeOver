@@ -195,13 +195,40 @@ ul.side-nav li a.indentedLI {
 }
 .row#three .aboutUs .personImage {
   width: 20%;
+  height: 290px;
   position: relative;
   float: left;
+  background: #c21017;
+  -webkit-box-shadow: 1px 1px 10px;
+  box-shadow: 1px 1px 10px;
+  margin: 5px 0;
+}
+.row#three .aboutUs .personImage p {
+  color: #FFF;
+  font: 18px "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 /* services section*/
 .row#four .services {
-  height: 500px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.row#four .services .collapsible {
+  position: relative;
+  bottom: 0;
+  margin: 0.5rem 0 0 0;
+}
+.row#four .services .collapsible-header {
+  background: #312f2f;
+  color: #FFF;
+  border: none;
+}
+.row#four .services .collapsible-body {
+  background: #dedede;
+  font: 21px "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 /* Contact Modal */

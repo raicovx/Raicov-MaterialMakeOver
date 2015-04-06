@@ -1,4 +1,21 @@
 @import 'variables';  
 .row#four .services{
-    height:$services-CardHeight;   
+    height:$services-CardHeight;  
+    padding:0;
+    margin:0;
+    .collapsible{
+        position:relative;
+        bottom:0;  
+        margin:0.5rem 0 0 0
+    }
+    .collapsible-header{
+        background:#312f2f;  
+        color: #FFF;
+        border:none;
+    }
+    .collapsible-body{
+        background:#dedede;
+        font: 21px "Roboto", sans-serif;
+        font-weight: 400;
+    }
 }

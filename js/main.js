@@ -7,4 +7,5 @@ $(document).ready(function(){
             });
       $('.slider').slider({height:500,indicators:true});
     $('.modal-trigger').leanModal();
+      $('.collapsible').collapsible();
 });

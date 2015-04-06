@@ -15,8 +15,17 @@
         }  
     .personImage{
         width:20%;
+        height:$aboutUs-CardHeight - 10px;
         position:relative;
         float:left;
+        background:#c21017;
+        box-shadow: 1px 1px 10px;
+        margin: 5px 0;
+        p{
+           color:#FFF;
+           font: 18px "Roboto", sans-serif;
+            font-weight:300;
+        }   
     }
     
 }
