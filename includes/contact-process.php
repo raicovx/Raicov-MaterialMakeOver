@@ -1,5 +1,6 @@
 <?php
 ob_start();
+console.log("ran script");
 $recipient="info@raicovdesigns.com.au";
 $subject="Website Form Submission";
 $email= $_POST['email'];
@@ -17,7 +18,7 @@ $debugInfo = $fp->formatDebugInfo($_POST, $fpResult);
 echo $debugInfo;
 	
 if($fpResult[pass]) {
-	//echo "Passed.  Process as normal, send email, etc.";
+	echo "Passed.  Process as normal, send email, etc.";
 	if ($subject=="") $subject="[phpFromProtect: Pass] Form Submission";
     $message  = "Name: ".$name."<br />";
 	$message .= "Email: ".$email."<br />";
@@ -32,7 +33,7 @@ if($fpResult[pass]) {
 	mail($recipient,$subject,$message,$headers);
 }
 else {
-	//echo "Failed.  Log, block IP, email, etc.";
+	echo "Failed.  Log, block IP, email, etc.";
 	if ($subject=="") $subject="Form Submission";
 	$message  = $debugInfo;
 	$subject  = "[phpFromProtect: Fail] " . $subject;
