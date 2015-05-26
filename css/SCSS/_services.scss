@@ -9,9 +9,23 @@
         margin:0.5rem 0 0 0
     }
     .collapsible-header{
-        background:#312f2f;  
+        background:$red-highlights;  
         color: #FFF;
         border:none;
+        transition: background 1s;
+    }
+    .active .collapsible-header{
+        background:$red-highlights-darker-2;  
+    }
+    .waves-effect.waves-raicov .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: rgba(219, 58, 58,0.7);
+    }
+    .active .waves-effect.waves-raicov .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: rgba(204, 37, 37, 0.7);
     }
     .collapsible-body{
         background:#dedede;

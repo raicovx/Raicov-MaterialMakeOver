@@ -4,82 +4,49 @@ body {
 }
 
 /* Nav Bar */
-.navBar, .nav {
+.nav-wrapper {
   width: 100%;
-  height: 100px !important;
   background: #404040;
 }
-.navBar ul li, .nav ul li {
-  /* Materialize Default Override */
-  position: relative;
-  float: left;
-  height: 80px !important;
-  line-height: 70px !important;
-  vertical-align: middle;
-}
-.navBar ul li a i, .nav ul li a i {
-  /* Materialize Default Override */
-  height: 100px !important;
-  line-height: 70px !important;
-}
-.navBar .brand-logo, .nav .brand-logo {
+.nav-wrapper .brand-logo {
   width: 60px;
   height: auto;
   position: relative;
-  top: 30% !important;
+  top: 2% !important;
 }
-.navBar .brand-logo img, .nav .brand-logo img {
+.nav-wrapper .brand-logo img {
   width: 60px;
   height: auto;
   position: relative;
-}
-
-#services.dropdown-content {
-  /* Materialize Default Override */
-  width: 300px !important;
-  left: 80% !important;
-}
-
-#services.dropdown-content li a {
-  /* Materialize Default Override */
-  color: #c21017 !important;
 }
 
 ul.side-nav li a.indentedLI {
-  color: #c21017 !important;
+  color: #ff4343 !important;
 }
 
 .waves-effect.waves-custRed .waves-ripple {
   /* The alpha value allows the text and background color
   of the button to still show through. */
-  background-color: #c21017;
+  background-color: #ff4343;
 }
 
 /*<<<<<<<< Content styles >>>>>*/
-/* Business Card */
-.businessCard {
-  height: 225px;
-  background: #c21017 !important;
-  -webkit-transition: -webkit-box-shadow 1s;
-  transition: box-shadow 1s;
-}
-.businessCard img {
-  position: relative;
-  float: left;
-  margin: 0 0 0 31%;
-}
-
 /* welcome Content */
 .welcomeContent {
-  height: 225px;
-  padding: 2% 0 0 5% !important;
+  height: auto;
+  padding: 1% 0 1% 3% !important;
+  background-color: #db3a3a !important;
+  color: #FFF;
 }
 .welcomeContent .titleText {
   font: 30px "Roboto", sans-serif;
   font-weight: 400;
+  color: #FFF;
 }
-.welcomeContent h4 {
-  color: #1a1a1a;
+.welcomeContent img, .welcomeContent .welcomeText {
+  position: relative;
+  float: left;
+  margin-bottom: 1%;
 }
 
 /* our Work section */
@@ -105,7 +72,8 @@ ul.side-nav li a.indentedLI {
 
 /* about Us Section */
 .row#three .aboutUs {
-  height: 300px;
+  height: auto;
+  background-color: #dadada !important;
 }
 .row#three .aboutUs .textContainer {
   width: 80%;
@@ -120,18 +88,18 @@ ul.side-nav li a.indentedLI {
 }
 .row#three .aboutUs .personImage {
   width: 20%;
-  height: 290px;
+  height: auto;
   position: relative;
   float: left;
-  background: #c21017;
-  -webkit-box-shadow: 1px 1px 10px;
+  background: #cc2525;
   box-shadow: 1px 1px 10px;
-  margin: 5px 0;
+  margin: 1% 0;
 }
 .row#three .aboutUs .personImage p {
   color: #FFF;
   font: 18px "Roboto", sans-serif;
   font-weight: 300;
+  padding: 0 5px;
 }
 
 /* services section*/
@@ -146,9 +114,23 @@ ul.side-nav li a.indentedLI {
   margin: 0.5rem 0 0 0;
 }
 .row#four .services .collapsible-header {
-  background: #312f2f;
+  background: #db3a3a;
   color: #FFF;
   border: none;
+  transition: background 1s;
+}
+.row#four .services .active .collapsible-header {
+  background: #cc2525;
+}
+.row#four .services .waves-effect.waves-raicov .waves-ripple {
+  /* The alpha value allows the text and background color
+  of the button to still show through. */
+  background-color: rgba(219, 58, 58, 0.7);
+}
+.row#four .services .active .waves-effect.waves-raicov .waves-ripple {
+  /* The alpha value allows the text and background color
+  of the button to still show through. */
+  background-color: rgba(204, 37, 37, 0.7);
 }
 .row#four .services .collapsible-body {
   background: #dedede;
@@ -163,7 +145,6 @@ ul.side-nav li a.indentedLI {
 
 .input-field input[type=text]:focus, .input-field input[type=email]:focus, .input-field input[type=tel]:focus, .input-field textarea:focus {
   border-bottom: 1px solid #404040 !important;
-  -webkit-box-shadow: 0 1px 0 0 #404040 !important;
   box-shadow: 0 1px 0 0 #404040 !important;
 }
 
@@ -173,13 +154,11 @@ ul.side-nav li a.indentedLI {
 
 .modal-footer input {
   border: none;
-  -webkit-box-shadow: none;
   box-shadow: none;
   background-color: transparent;
   color: #343434;
   float: right;
   border-radius: 2px;
-  -webkit-background-clip: padding-box;
   background-clip: padding-box;
   line-height: 32px;
   text-transform: uppercase;
@@ -189,4 +168,8 @@ ul.side-nav li a.indentedLI {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.card, .row {
+  margin: 0 !important;
 }

@@ -3,12 +3,11 @@
 body{
  background:#dadada;   
 }
+
 /* Nav Bar */
 @import 'navBar';
 
 /*<<<<<<<< Content styles >>>>>*/
-/* Business Card */
-@import 'businessCard'; 
 /* welcome Content */
 @import 'welcomeCard';
 /* our Work section */
@@ -23,3 +22,8 @@ body{
 
 /* Contact Modal */
 @import 'contactModal';
+
+
+.card, .row{
+    margin:0!important;
+}
