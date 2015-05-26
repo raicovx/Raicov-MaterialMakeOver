@@ -1,6 +1,6 @@
 $(document).ready(function(){
    $(".services-button").dropdown();
-    $(".button-collapse").sideNav();
+    $(".button-collapse").sideNav({closeOnClick: true});
     $('.container div').hover(function(){
            $('.businessCard').removeClass('z-depth-2').addClass('z-depth-4');}, function(){
                 $('.businessCard').removeClass('z-depth-4').addClass('z-depth-2');
