@@ -73,33 +73,36 @@ ul.side-nav li a.indentedLI {
 /* about Us Section */
 .row#three .aboutUs {
   height: auto;
-  background-color: #dadada !important;
+  background-color: #3e3e3e !important;
+  padding: 0;
+  margin: 0;
 }
 .row#three .aboutUs .textContainer {
-  width: 80%;
   position: relative;
   float: left;
-}
-.row#three .aboutUs a {
-  color: #c21017;
-  font: 20px "Roboto", sans-serif;
-  font-weight: 500;
-  text-transform: lowercase;
+  color: #FFF;
 }
 .row#three .aboutUs .personImage {
-  width: 20%;
   height: auto;
-  position: relative;
-  float: left;
-  background: #cc2525;
-  box-shadow: 1px 1px 10px;
-  margin: 1% 0;
+  background: #db3a3a;
+  margin: 0;
 }
 .row#three .aboutUs .personImage p {
   color: #FFF;
   font: 18px "Roboto", sans-serif;
   font-weight: 300;
   padding: 0 5px;
+}
+.row#three .aboutUs .personImage a {
+  max-width: 100%;
+  font: 16px "Roboto", sans-serif;
+  color: #cc2525;
+  word-wrap: break-word;
+  height: auto;
+  line-height: 1.2rem;
+  font-weight: 500;
+  padding: 8px 5px;
+  margin-bottom: 5px;
 }
 
 /* services section*/

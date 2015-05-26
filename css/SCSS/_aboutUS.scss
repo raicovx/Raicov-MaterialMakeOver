@@ -2,32 +2,37 @@
 
 .row#three .aboutUs{
     height:$aboutUs-CardHeight;  
-    background-color:#dadada!important;
+    background-color:#3e3e3e!important;
+    padding:0;
+    margin:0;
      .textContainer{
-        width:80%;
         position: relative;
         float: left;
+         color:#FFF;
      }
-     a{
-          color:#c21017;
-          font: 20px "Roboto", sans-serif;
-          font-weight: 500;
-          text-transform: lowercase;
-        }  
+     
     .personImage{
-        width:20%;
         height:auto;
-        position:relative;
-        float:left;
-        background:$red-highlights-darker-2;
-        box-shadow: 1px 1px 10px;
-        margin: 1% 0;
+        background:$red-highlights;
+        margin:0;
         p{
            color:#FFF;
            font: 18px "Roboto", sans-serif;
             font-weight:300;
             padding: 0 5px;
-        }   
+        }
+        a{
+            max-width: 100%;
+            font: 16px "Roboto", sans-serif;
+            color:$red-highlights-darker-2;
+            word-wrap: break-word;
+            height:auto;
+            line-height: 1.2rem;
+            font-weight:500;
+            padding: 8px 5px;
+            margin-bottom: 5px;
+        }
+        
     }
     
 }
