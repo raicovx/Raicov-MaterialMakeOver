@@ -11,4 +11,5 @@ $(document).ready(function(){
     $('.scrollspy').scrollSpy();
     $('#webDev').addClass('active');
     $('#webDev .collapsible-body').css('display', 'block');
+    $('.parallax').parallax();
 });

@@ -1,8 +1,7 @@
 @import 'variables';
 
 .row#three .aboutUs{
-    height:$aboutUs-CardHeight;  
-    background-color:#3e3e3e!important;
+    height:$aboutUs-CardHeight; 
     padding:0;
     margin:0;
      .textContainer{
@@ -13,7 +12,6 @@
      
     .personImage{
         height:auto;
-        background:$red-highlights;
         margin:0;
         p{
            color:#FFF;
