@@ -1,0 +1,64 @@
+.row#four .ourClients{
+    height:$ourWork-CardHeight;  
+    margin:0!important;
+    padding:0;
+        .slides li.BPA{
+            background-color: rgb(12, 64, 126);   
+           img {
+                    width: 290px;
+                    height: 200px;
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-radius: 15px;
+                }
+            a{
+                color:#1e90ff;
+            }   
+        }
+        .slides li.Summit{
+             background-color: #a2080e;   
+           img {
+                    width: 290px;
+                    height: 200px;
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-radius: 15px;
+                }  
+             a{
+                color:#ff1e1e;
+            }   
+        }
+    .slides li.NRP{
+            background-color: #408be5;   
+           img {
+                    width: 290px;
+                    height: 200px;
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-radius: 15px;
+                }
+            a{
+                color:#14599d;
+            }   
+        }
+    
+        /*slider fix indicators*/
+        .slider ul.indicators{
+            z-index:99;
+            bottom: 55px;
+        }/*<<<<<<>>>>>>>>>>>>>>>>>>>>>*/
+        .slider ul.indicators li.indicator-item.active{
+            background-color: #c21017;   
+        }
+        /*<<<<<<>>>>>>>>>>>>>>>>>>>>>*/
+        
+        .caption .sliderLogo{
+           width: 250px;
+            height:auto;
+            margin-right: 25px;
+        }   
+}
+    

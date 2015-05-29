@@ -1,6 +1,4 @@
-@import 'variables';
-
-.row#three .aboutUs{
+.row#two .aboutUs{
     height:$aboutUs-CardHeight; 
     padding:0;
     margin:0;
@@ -12,7 +10,7 @@
      
     .personImage{
         height:auto;
-        margin:0;
+        margin:0 0 50px 0;
         p{
            color:#FFF;
            font: 18px "Roboto", sans-serif;
@@ -22,7 +20,8 @@
         a{
             max-width: 100%;
             font: 16px "Roboto", sans-serif;
-            color:$red-highlights-darker-2;
+            color:#FFF;
+            background-color: rgba(204, 37, 37, 0.65)!important;
             word-wrap: break-word;
             height:auto;
             line-height: 1.2rem;
